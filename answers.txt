@@ -1,0 +1,54 @@
+X-configuration
+Requirement of minimum 6 propellers to control all 6-DOF of vehicle
+Unstable
+4
+To represent the position and orientation of an object or robot in space
+Product of transformation matrices
+To define the reference point for position and orientation measurements
+ To ensure accurate and reliable sensor readings and smooth flight performance
+IO Pwm out
+ Connect without the battery first then click the ESCs calibration button in QGroundControl.then connect the battery.
+PX4 is an open-source flight control software.
+Barometer
+2
+To know the orientation.
+3
+roslaunch
+catkin_make
+service
+All of the above
+PWM
+FS-i6X
+topic
+Shaft diameter
+All of them
+FLYSKY 2A
+BEC
+Altitude Hold
+Position Hold
+Acro
+Stabilized
+4
+To provide real time flight data
+Controllability
+Tracking and Regulation problems
+1
+GPT-3
+Splitting text into smaller units
+Training a pre-trained model on a specific task or dataset
+For natural language understanding and generation
+Natural language interface for robotic control
+Both Objects & Activities
+Supervised learning
+Image only
+All of the above
+False
+
+
+
+
+
+
+
+
+

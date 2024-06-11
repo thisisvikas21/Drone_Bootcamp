@@ -1,0 +1,5 @@
+Project Monitoring,Aerial Mapping,Structural Health Monitoring,All of the above
+brushless direct current motor,brushed direct current motor,brushless direct con current motor,brushed direct con current motor
+Beta flight,Clean flight,light pilot,Ardu pilot
+GPS module,ESC (Electronic Speed Controller),Flight controller,Battery
+Stabilize the drone,Control the drone’s speed,Generate lift,Provide power to the camer

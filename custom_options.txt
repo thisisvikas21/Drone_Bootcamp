@@ -1,0 +1,45 @@
+X-configuration,+-configuration,Ring-configuration,Y-configuration
+Requirement of minimum 3 propellers to control all 6-DOF of vehicle,Requirement of minimum 4 propellers to control all 6-DOF of vehicle,Requirement of minimum 5 propellers to control all 6-DOF of vehicle,Requirement of minimum 6 propellers to control all 6-DOF of vehicle
+Unstable,Stable,reject wind interference,no impact
+6,4,3,6 
+To calculate the speed of the robot's movements,To determine the size and weight of the robot,To represent the position and orientation of an object or robot in space,To control the robot's gripper 
+Translation matrix,Rotation matrix,Identity matrix,Product of transformation matrices
+To calculate the force exerted by the robot,To define the reference point for position and orientation measurements,To generate random movements for the Whyrobot,To determine the number of degrees of freedom
+To add extra features to the droneTo improve the drone's aesthetic appearance,To ensure accurate and reliable sensor readings and smooth flight performance, To increase the drone's battery life
+telem1,IO Pwm out,FMU pwm out,I2c pins
+Connect without the battery first then click the ESCs calibration button in QGroundControl.then connect the battery.,Calibrate the ESCs using a separate calibration tool before connecting the battery,Connect the battery and the ESCs will calibrate automatically,Wait for a few seconds then connect the battery, and then click the ESCs calibration button in QGroundControl
+Pixhawk is a software platform for drone control.,PX4 is a type of drone frame or chassis.,Pixhawk is a drone piloting app for Android devices.,PX4 is an open-source flight control software.
+Barometer,optical flow,Ir,3D sensor.
+1,2,3,4
+To identify the acceleration.,To know the velocity,To know the position ,To know the orientation.
+3,6,4,None of the above
+rosrun,roslaunch,roscore,rosparam
+catkin_create,catkin_make,catkin_pkg,None
+topic,service,action,all of the above
+TX,ESC,RX,All of the above
+PPM,PWM,S-BUS,FLYSKY 2A
+TX16S,FS-i6X,TX12,Radimaster Zorro
+topic,service,action,none
+Stator Diameter,Motor KV,Stator Volume,Shaft diameter
+Propeller imbalancing,Unbalanced GG,Inclined Motor,All of them
+PPM,PWM,S-BUS,FLYSKY 2A
+BEC,OPT,BLHeli_S,Dshot600
+Stabilized,Return to Home,Altitude Hold,Position Hold
+Stabilized,Return to Home,Altitude Hold,Position Hold
+Acro,Stabilized,Loiter,Altitude Hold
+Stabilized,Return to Home,Altitude Hold,Position Hold
+4,6,8,2
+To stream live video feed,To provide real time flight data,To establish communication with other drone,To remotely control drone’s camera gimba
+Control Invariance,Control Cost,Controllability,Control Maneuve
+Regulation and Optimization problems,Tracking and Optimization problems,Stability and Optimization problems,Tracking and Regulation problems 
+1,2,3,>3
+GPT-3,SVM,K-Means,PCA
+Encrypting text data,Splitting text into smaller units,Training a model,Translating text
+Adjusting hyperparameters of a model,Training a pre-trained model on a specific task or dataset,Reducing the number of layers in a model,Converting text data into numerical data
+For physical manipulation of objects,For natural language understanding and generation,For direct control of robotic actuators,For battery management in robots
+Natural language interface for robotic control,Mechanical design of robot parts,Optimization of power consumption,Temperature regulation in robotic systems
+Objects,Activities,Motion,Both Objects & Activities
+Learning,Unsupervised learning,Supervised learning,None of the mentioned
+Signal and image,Signal only,Image only,Depends on input
+Robotics,Medicine,Security,All of the above
+True,False (an inverse problem)

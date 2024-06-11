@@ -1,0 +1,171 @@
+B1-01,Kartikey tyagi
+B1-02,Dev Kumar
+B1-03,Aryan Gupta
+B1-04,Shubham choudhary
+B1-05,Ashish Sharma
+B1-06,SAMEER KHAN
+B1-07,Rahul sharma
+B1-08,Devansh Baliyan
+B1-09,Sourabh Yadav
+B1-10,RITIK KUMAR
+B1-11,Sandesh Kumar
+B1-12,Diksha
+B1-13,Prachi tyagi
+B1-14,Nishtha
+B1-15,Nidhi Tomar
+B1-16,Tanishq Singh
+B1-17,Aditya
+B1-18,Mrinalini Marh
+B1-19,Prince dhadwal
+B1-20,Mantu kumar
+B2-01,Himanshu Yadav
+B2-02,Hemant Gopal Chauhan
+B2-03,Rohit Sharma
+B2-04,Aditya Pratap Singh
+B2-05,Himanshu karnwal
+B2-06,Piyush dubey
+B2-07,Harsh sharma
+B2-08,Mohd Safdar
+B2-09,Siddhartha vats
+B2-10,Kushagra Mathur
+B2-11,Manthan mathur
+B2-12,Sanya Chauhan
+B2-13,Prakriti Chauhan
+B2-14,HEMLATA
+B2-15,Vidhi Bhatnagar
+B2-16,Ananna Biswas
+B2-17,Shreya pant
+B2-18,Anmol Garg
+B2-19,kishan Madlani
+B2-20,DARSHAN HATHINARAYAN
+B3-01,Gaurav Tyagi
+B3-02,Mohd Ayaan
+B3-03,MOHD UMAR
+B3-04,Izhar Ali
+B3-05,Shashank Verma
+B3-06,Aryan tyagi
+B3-07,Chinmay Tyagi
+B3-08,Anmol yadav
+B3-09,Sejar Mourya
+B3-10,Pushkar Sharma
+B3-11,Abhishek Lowres
+B3-12,Dhruvika Sharma
+B3-13,Nandini Tyagi
+B3-14,Soniya
+B3-15,Pranjal Kashyap
+B3-16,Harish Sondagar
+B3-17,Vishrut Thakur
+B3-18,Nikesh Paswan
+B3-19,Shreya chauhan
+B3-20,Aryan Paratakke
+B4-01,Aryan Rohila
+B4-02,Navneet Kumar
+B4-03,Kunal Singh
+B4-04,Nishant Pratap Singh
+B4-05,Aditya
+B4-06,Yash Chauhan
+B4-07,Mayank Mathpal
+B4-08,Vijay kumar
+B4-09,Shivam Sethi
+B4-10,Himanshu Yadav
+B4-11,Kartik Malik
+B4-12,Riya Vishwakarma
+B4-13,Kritika Saini
+B4-14,Kanan singh
+B4-15,Mansi Sahagal
+B4-16,Ashish kumar
+B4-17,Tanmay Sharma
+B4-18,Arya Kashikar
+B4-19,Shubhanshu Kumar
+B4-20,Aakash Tadhani
+B5-01,Nirmal kumar
+B5-02,Shubham saini
+B5-03,Mohd Zubair
+B5-04,Ansh Chauhan
+B5-05,Gaurav tyagi
+B5-06,Aman Karki
+B5-07,Shubham Kumar
+B5-08,Naman Chauhan
+B5-09,Anurag saini
+B5-10,Chetanya
+B5-11,Harshvardhan
+B5-12,Anshika Chauhan
+B5-13,Tanya pal
+B5-14,Neha karanwal
+B5-15,Ritika singh
+B5-16,Arpan
+B5-17,Dhruv Gupta
+B5-18,Muskan yadav
+B5-19,Adey Purohit
+B5-20,Sushant Shankar
+B6-01,PRATEEK BHARGAVA
+B6-02,Vishal Singh
+B6-03,Devraj Singh
+B6-04,Vasudev Saini
+B6-05,Prikshit
+B6-06,Aryan KÂMBÔJ
+B6-07,Shivam Singh
+B6-08,Aayush Singh
+B6-09,Aniket Tiwari
+B6-10,Kumar Sonu
+B6-11,Roshan Kumar
+B6-12,Shreya chauhan
+B6-13,Santoshi dandriyal
+B6-14,Prakriti chauhan
+B6-15,Khushi Saini
+B6-16,Shihab Sadad Azad
+B6-17,Kritagyay Upadhayay
+B6-18,Rahul
+B6-19,SNEHA DUTTA
+B6-20,Pranjal Sharma
+B7-01,NamanSrivastava
+B7-02,Md Numan Ansari
+B7-03,Harsh Maurya
+B7-04,Saheb Kumar
+B7-05,Vikrant kumar jha
+B7-06,Mohd Salman
+B7-07,Mohd Kaif
+B7-08,Shubham saini
+B7-09,Jayant Panwar
+B7-10,Manav Tyagi
+B7-11,Muskan yadav
+B7-12,Aastha arora
+B7-13,Kritika Saini
+B7-14,Aarti bhararaa
+B7-15,Arpita Dwivedi
+B7-16,Nisha mani tripathi
+B7-17,Smriti Gupta
+B7-18,Aryan Tembhekar
+B7-19,Ziya Vohra
+B7-20,Padmanabh Wanikar
+B7-21,Simran
+B7-22,Prasanna Muppidwar
+B7-23,Akshant Verma
+B8-01,ADITYA
+B8-02,Kanika Katna
+B8-03,Siddharth Tiwari
+B8-04,K. Diana Mary
+B8-05,Lakshmi A Korti
+B8-06,Punuru Venkata Usha Shree
+B8-07,K. Abhilash
+B8-08,Sunkara Srujan Bhargav
+B8-09,Shiksha Gupta
+B8-10,B.pritam
+B8-11,SAUMIL BANSAL
+B8-12,Adarsh Jha
+B8-13,Aryan Pal
+B8-14,Nikhil Thakur
+B8-15,Vaibhav Sharma
+B8-16,labh Singh
+B8-17,yashasvi singh
+B8-18,Akash
+B8-19,Sargam Malik
+B8-20,JOYJEET BANERJEE
+B9-01,Hitendra Sisodia
+B9-02,Kartik Kapil
+B9-03,Avi Saini
+B9-04,K. Diana Mary
+B9-05,Aryan Saini
+B9-06,Simran
+B9-07,Kanan Verma
+B9-08,Poonam Singh

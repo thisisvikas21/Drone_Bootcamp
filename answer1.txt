@@ -1,0 +1,5 @@
+All of the above
+brushless direct current motor
+light pilot
+Flight controller
+Generate lift

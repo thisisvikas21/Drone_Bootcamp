@@ -1,0 +1,5 @@
+1. Which of the following is an application of drone?
+2. Full form of BLDC
+3. Software not used for flight controller?
+4. Which component of a drone is responsible for determining its position and orientation?
+5. What is the primary function of a drone’s propellers
