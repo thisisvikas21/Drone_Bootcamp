@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f0f0f0; /* Light grey background */
+            font-family: Arial, sans-serif;
+            color: #333; /* Dark text color */
+            margin: 0;
+            padding: 0;
+        }
+        .background-container {
+            background-image: url("cair2.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .bootcamp-info {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            color: white;
+            text-align: center;
+            max-width: 80%;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            color: white;
+            text-align: center;
+            max-width: 100%;
+        }
+        input[type="text"] {
+            width: calc(100% - 22px); /* Adjusting for padding and border */
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: 1px solid #ccc; /* Light grey border */
+        }
+        button[type="submit"] {
+            width: calc(100% - 22px); /* Adjusting for padding and border */
+            padding: 10px;
+            background-color: #4CAF50; /* Green */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-container">
+        <div class="bootcamp-info">
+            <h1>Drone Technology Bootcamp Quiz</h2>
+            <h2>June 7th - 12th</h2>
+            <h2>Hosted by CAIR, IIT Mandi</h2>
+            <p><span class="bold-text">Please Enter Your Roll-Number</span></p>
+            <form method="POST">
+                <input type="text" name="rollno" placeholder="Enter your roll number" required>
+                <button type="submit">Access-Quiz</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

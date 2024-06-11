@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        .thank-you {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .roll-number {
+            font-size: 24px;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+        .team-name {
+            font-style: italic;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="thank-you">Dear <span>{{ name }},</span></p>
+        <p>Thank you for participating in the bootcamp drone quiz. Your effort and enthusiasm are greatly appreciated.</p>
+        <p class="roll-number">Your roll number is: <span>{{ rollno }}</span></p>
+        <p>We hope you found the quiz insightful and enjoyable. Keep exploring and learning!</p>
+        <p class="team-name">Best regards,<br>The Bootcamp Drone Team</p>
+    </div>
+</body>
+</html>

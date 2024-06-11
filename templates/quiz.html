@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #333333;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        label {
+            margin-right: 20px;
+            font-size: 16px;
+            color: #555555;
+        }
+
+        button[type="submit"] {
+            display: block;
+            margin: 20px auto 0;
+            padding: 12px 24px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .timer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 24px;
+            color: #333333;
+        }
+
+        .timer span {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, {{ name }}!</h1>
+        <h2>Duration: 30 mins</h2>
+        <h2>Date and Time: 11-June-2024, 2:30 pm - 3:00 pm  </h2>
+        <h2>Total Questions: 35</h2>
+        <h2>Total Marks: 35</h2>
+        <p>Instructions: Mark only one answer for each question. Multiple markings for the same question will not be considered.</p>
+        <p>Do not indulge yourself in copying or exam-related malpractice. Best of Luck!</p>
+        
+        <!-- Timer display -->
+        <div class="timer">Time Left: <span id="timer">30:00</span></div>
+
+        <form id="quizForm" method="POST">
+            {% for question_index in range(questions|length) %}
+                <p>{{ questions[question_index] }}</p>
+                {% for option_index in range(custom_options[question_index]|length) %}
+                    {% set option = custom_options[question_index][option_index] %}
+                    <input type="radio" id="option{{ option_index+1 }}_{{ question_index }}" name="answer{{ question_index }}" value="{{ option }}">
+                    <label for="option{{ option_index+1 }}_{{ question_index }}">{{ option }}</label><br>
+                {% endfor %}
+            {% endfor %}
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        // Timer countdown function
+        function startTimer(duration, display) {
+            var timer = duration, minutes, seconds;
+            setInterval(function () {
+                minutes = parseInt(timer / 60, 10);
+                seconds = parseInt(timer % 60, 10);
+
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = minutes + ":" + seconds;
+
+                if (--timer < 0) {
+                    timer = 0;
+                    document.getElementById('quizForm').submit(); // Submit the form when time is up
+                }
+            }, 1000);
+        }
+
+        // Start the timer when the page loads
+        window.onload = function () {
+            var duration = 60 * 30; // 30 minutes in seconds
+            var display = document.getElementById('timer');
+            startTimer(duration, display);
+        };
+
+        // Detect when the user switches tabs
+        document.addEventListener('visibilitychange', function () {
+            if (document.hidden) {
+                // Tab switched, submit the form
+                document.getElementById('quizForm').submit();
+            }
+        });
+
+        // Confirm before leaving the page
+        window.addEventListener('beforeunload', function (e) {
+            if (document.hidden) {
+                // If tab was not active, submit the form
+                document.getElementById('quizForm').submit();
+                return null;
+            }
+        });
+    </script>
+</body>
+</html>
